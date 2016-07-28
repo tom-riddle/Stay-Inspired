@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="syncFrequency">
+        <item name="1">Once a day</item>
+        <item name="2">Twice a day</item>
+    </string-array>
+    <string-array name="syncFrequencyValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="notiftimearray">
+        
+        <item>Two Hours</item>
+        <item>Three Hours</item>
+        <item>Four Hours</item>
+    </string-array>
+    <string-array name="notiftimearrayindex">
+       
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+    </string-array>
+
+</resources>

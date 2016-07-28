@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stayinspired.LastActivity" >
+
+    <item
+        android:id="@+id/home23"
+        android:icon="@drawable/home_2"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/favourites_icon123"
+        android:orderInCategory="101"
+        android:title="@string/book"
+        app:showAsAction="always"/>
+
+</menu>

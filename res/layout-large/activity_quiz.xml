@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linebg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.stayinspired.QuizActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="TDHCondensed"
+            android:text="@string/qe"
+            android:textColor="#6E2126"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="TDHCondensed"
+            android:maxLines="6"
+            android:padding="10dp"
+            android:text="@string/about_us"
+            android:textColor="#6E2126"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:background="@drawable/round"
+            android:fontFamily="TDHCondensed"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:background="@drawable/round"
+            android:fontFamily="TDHCondensed"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:background="@drawable/round"
+            android:fontFamily="TDHCondensed"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:background="@drawable/round"
+            android:fontFamily="TDHCondensed"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

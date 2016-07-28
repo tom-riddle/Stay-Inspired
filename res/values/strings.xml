@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="qe">Q:</string>
+    <string name="ta">Try Again</string>
+    <string name="zero"> 0  </string>
+	<string name="wrong1">Wrong Answer</string>
+	<string name="right1">Right Answer</string>
+	<string name="try1">Try Again</string>
+    <string name="exit">Exit</string>
+    <string name="sp">STAY INSPIRED!</string>
+    <string name="app_name">Stay Inspired!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="stay_inspired">Stay Inspired!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_not">Enable Notifications</string>
+    <string name="date11">DATE</string>
+    <string name="book">Mark Favorite</string>
+    <string name="set_freq">Set time</string>
+    <string name="summary_not">Receive Notifications from us.</string>
+    <string name="summary_notfreq">Notification after how many hours of wake up time</string>
+    <string name="background">Background</string>
+    <string name="wallpaper">Change Background Automatically</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="about_us">\t\tWe are a student development venture with a vision to enhance the understanding, creative thinking and vision of students by introducing and implementing ingenious mechanisms to change the education scenario of our country for better.\n
+
+\tWe started off as a university journal in March 2012 and were deemed as the first multidimensional journal by any engineering college in India. Since our launch, we received widespread success and had the privilege to receive the honor of getting featured in reputed publications such as Hindustan Times, Navbharat Times and Rashtriya Sahara. Since then, The Testament has never looked back and has diversified into a lot of serious domains of student development related to schools and colleges such as training &amp; development and internship providing.\n
+\tThe Testament is proud to boast a student network of more than ten lakh students on social media and one lakh students of across Delhi/NCR region. As a student media corporation, we have collaborated with names like IIT Delhi, IIT Bombay, Delhi Technological University, Hindu College, LSR College for Women, to name a few. In the field of training and development, we’ve had the honor to collaborate with professionals of awe-inspiring stature, including Dr. Deepa Diddi (Guest faculty- IIM Indore), Jagjyot Sing Nagra (Vice President – G4S Group), Rajat Mittal (Senior Management Consultant) and Brainerd Prince (PhD, University of Oxford), to name a few.\n
+
+\tThe Testament is known for offering the best value proposition to its clientele and has a track record of pushing the limits of quality every time.</string>
+    <string name="title_activity_inspire">InspireActivity</string>
+    <string name="heading">Today Mark Zuckerberg founded Facebook.</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="today">changed the World!</string>
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="title">Mark Zuckerberg-Founder of "Facebook"</string>
+    <string name="why_det">Why did he found facebook</string>
+    <string name="when_det">When did he found facebook</string>
+    <string name="how_det">How did he found facebook</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="title_activity_last">LastActivity</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+    <string name="title_activity_card_flip">CardFlipActivity</string>
+    <string name="title_activity_clock">ClockActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_pinch">PinchActivity</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="result">You answered  </string>
+    <string name="result1"> out of 5 questions correctly!</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="home">Home</string>
+    <string name="quiz1">QUIZ</string>
+    <string name="share123">SHARE</string>
+    <string name="w">WHO?</string>
+    <string name="w1">WHEN?</string>
+    <string name="w2">HOW?</string>
+    <string name="smartnotifty">\n\t\tThis easy to use app could be a life changing tool for you. ‘Stay Inspired!’ is a knowledge stock crafted to inspire minds each day by telling great stories relevant to each date of the year.  Live those resounding moments and peek into the lives of those extraordinary souls that changed the course of humanity.\n
+
+	\tWhat makes this application a ‘must have’ is its unique feature of ‘Alarm Clock Synchronization’, which means that it can be linked to your alarm clocks. With this feature you receive the daily article to your notification bar at your time of convenience after you have woken up.  Thus, get inspired before entering your busy routines every day.
+
+	\nHope you have a great experience.
+	\n\nStay Inspired!</string>
+
+</resources>

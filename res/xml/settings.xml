@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="prefscreen" >
+
+    <PreferenceCategory android:title="@string/notifications" >
+        <SwitchPreference
+            android:enabled="true"
+            android:key="checkboxpref"
+            android:selectable="true"
+            android:summary="@string/summary_not"
+            android:title="@string/enable_not" />
+
+        <ListPreference
+            android:entries="@array/notiftimearray"
+            android:entryValues="@array/notiftimearrayindex"
+            android:key="listpref"
+            android:summary="@string/summary_notfreq"
+            android:title="@string/set_freq" />
+    </PreferenceCategory>
+
+    <Preference android:title="Rate Us 5 Stars" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.thetestament.in" />
+    </Preference>
+
+</PreferenceScreen>

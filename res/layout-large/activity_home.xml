@@ -1,0 +1,93 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linebg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.stayinspired.HomeActivity" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_weight="2"
+            android:background="@drawable/aboutus_new"
+            android:contentDescription="@string/app_name"
+            android:onClick="aboutus"
+            android:padding="15dp" />
+
+        <ImageButton
+            android:id="@+id/imagebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="2"
+            android:background="@drawable/settings_new"
+            android:contentDescription="@string/app_name"
+            android:onClick="settings"
+            android:padding="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dp" >
+
+        <ImageButton
+            android:id="@+id/imagebutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/inspirnew2"
+            android:contentDescription="@string/app_name"
+            android:onClick="inspireme" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <ImageButton
+            android:id="@+id/imagebutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_weight="2"
+            android:background="@drawable/favourites_new"
+            android:contentDescription="@string/app_name"
+            android:onClick="favorites"
+            android:padding="15dp" />
+
+        <ImageButton
+            android:id="@+id/imagebutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="2"
+            android:background="@drawable/clock_new"
+            android:contentDescription="@string/app_name"
+            android:onClick="setclock"
+            android:padding="15dp" />
+    </TableRow>
+
+</TableLayout>

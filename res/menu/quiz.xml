@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stayinspired.QuizActivity" >
+
+    <item
+        android:id="@+id/home23"
+        android:icon="@drawable/home_2"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+
+</menu>
